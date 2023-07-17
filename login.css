@@ -36,26 +36,26 @@
   font-size: var(--font-size-smi);
   line-height: 38px;
   font-weight: 700;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   text-align: left;
   display: inline-block;
 }
-.chevron-left-icon28 {
+.chevron-left-icon34 {
   position: relative;
   width: 19px;
   height: 19px;
   display: none;
 }
-.button48 {
+.button60 {
   position: relative;
-  font-size: var(--regular-paragraph-regular-size);
+  font-size: var(--component-alert-title-size);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   color: var(--white);
   text-align: left;
 }
-.primary-button8 {
+.primary-button11 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-4xs) var(--padding-xs);
@@ -79,7 +79,7 @@
 }
 .login-item {
   border: 0;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   font-size: var(--font-size-smi);
   background-color: var(--white);
   top: 446px;
@@ -111,7 +111,7 @@
   width: 24px;
   height: 24px;
 }
-.group-child61,
+.group-child77,
 .login {
   background-color: var(--white);
 }
@@ -123,9 +123,9 @@
   text-align: center;
   font-size: var(--font-size-xs);
   color: var(--white);
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
 }
-.group-child61 {
+.group-child77 {
   position: absolute;
   top: calc(50% - 199px);
   left: calc(50% - 292px);
@@ -167,11 +167,11 @@
   gap: 7px;
 }
 .close,
-.vector-icon12 {
+.vector-icon20 {
   position: absolute;
   overflow: hidden;
 }
-.vector-icon12 {
+.vector-icon20 {
   height: 58.33%;
   width: 58.33%;
   top: 20.83%;
@@ -197,22 +197,22 @@
   left: 108px;
   line-height: 38px;
 }
-.chevron-left-icon27 {
+.chevron-left-icon33 {
   position: relative;
   width: 19px;
   height: 19px;
   display: none;
 }
-.button47 {
+.button59 {
   position: relative;
-  font-size: var(--regular-paragraph-regular-size);
+  font-size: var(--component-alert-title-size);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   color: var(--white);
   text-align: left;
 }
-.primary-button7 {
+.primary-button10 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-4xs) var(--padding-xs);
@@ -227,7 +227,7 @@
   justify-content: center;
   gap: var(--gap-9xs);
 }
-.rectangle-parent40 {
+.rectangle-parent51 {
   position: absolute;
   top: calc(50% - 199px);
   left: calc(50% - 292px);
@@ -246,5 +246,5 @@
   text-align: left;
   font-size: var(--font-size-smi);
   color: var(--color-black);
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
 }

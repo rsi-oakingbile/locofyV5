@@ -13,15 +13,15 @@ body {
 :root {
   /* fonts */
   --font-font-awesome-6-pro: "Font Awesome 6 Pro";
-  --light-heading-5: Roboto;
-  --font-source-sans-pro: "Source Sans Pro";
+  --light-heading-3: Roboto;
   --font-poppins: Poppins;
+  --font-source-sans-pro: "Source Sans Pro";
 
   /* font sizes */
-  --light-heading-5-size: 24px;
+  --regular-heading-5-size: 24px;
   --regular-heading-6-size: 20px;
   --semi-bold-subtitle-2-size: 14px;
-  --regular-paragraph-regular-size: 16px;
+  --component-alert-title-size: 16px;
   --font-size-41xl: 60px;
   --light-heading-3-size: 48px;
   --font-size-xs: 12px;
@@ -48,15 +48,15 @@ body {
   --light-gray: #eaebeb;
   --color-dimgray-100: #737373;
   --color-dimgray-200: #4e5a64;
-  --color-green: #257a00;
-  --color-beige: #e0f2d9;
-  --color-firebrick: #c21405;
-  --color-mistyrose: #ffdddb;
   --color-blanchedalmond: #fcedc7;
   --color-darkgoldenrod: #855f00;
-  --rsi-red: #ff4438;
+  --color-mistyrose: #ffdddb;
+  --color-firebrick: #c21405;
   --color-khaki: #fffba3;
   --color-yellow: #fff734;
+  --color-green: #257a00;
+  --color-beige: #e0f2d9;
+  --rsi-red: #ff4438;
   --color-cornsilk: #fff6dd;
 
   /* Gaps */
@@ -85,9 +85,9 @@ body {
   --padding-10xs: 3px;
   --padding-7xs: 6px;
   --padding-2xs: 11px;
+  --padding-sm: 14px;
   --padding-11xs: 2px;
   --padding-xl: 20px;
-  --padding-sm: 14px;
   --padding-2xl: 21px;
 
   /* border radiuses */

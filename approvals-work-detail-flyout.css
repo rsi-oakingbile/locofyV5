@@ -15,24 +15,24 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.button7 {
+.button17 {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--regular-paragraph-regular-size);
+  font-size: var(--component-alert-title-size);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   color: var(--color-firebrick);
   text-align: left;
 }
-.button-wrapper,
-.chevron-right-icon9 {
+.button-container,
+.chevron-right-icon21 {
   position: relative;
   width: 53px;
   height: 19px;
 }
-.chevron-right-icon9 {
+.chevron-right-icon21 {
   width: 19px;
   display: none;
 }
@@ -56,18 +56,18 @@
   border: 1px solid var(--color-mistyrose);
   box-sizing: border-box;
 }
-.button8 {
+.button18 {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: var(--regular-paragraph-regular-size);
+  font-size: var(--component-alert-title-size);
   letter-spacing: 0.04em;
   font-weight: 600;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   color: var(--color-green);
   text-align: left;
 }
-.button-container {
+.button-frame {
   position: relative;
   width: 66px;
   height: 19px;
@@ -106,7 +106,7 @@
 }
 .witm147399799 {
   position: relative;
-  font-size: var(--light-heading-5-size);
+  font-size: var(--regular-heading-5-size);
   color: var(--color-darkslategray);
 }
 .id-header {
@@ -129,7 +129,7 @@
   font-weight: 600;
 }
 .a-description-that {
-  font-size: var(--regular-paragraph-regular-size);
+  font-size: var(--component-alert-title-size);
   letter-spacing: 0.01em;
   line-height: 24px;
   color: var(--color-darkslategray);
@@ -153,13 +153,13 @@
   line-height: 20px;
   color: var(--color-darkslategray);
 }
-.status-container {
+.status-parent3 {
   align-self: stretch;
   height: 38px;
   gap: var(--gap-5xs);
 }
 .contents,
-.status-container,
+.status-parent3,
 .work-detail-content {
   display: flex;
   flex-direction: column;
@@ -182,11 +182,11 @@
   overflow-y: auto;
   scrollbar-width: 10px;
 }
-.button9 {
+.button19 {
   position: relative;
   font-size: var(--semi-bold-subtitle-2-size);
   letter-spacing: 0.04em;
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
   color: var(--color-royalblue);
   text-align: left;
 }
@@ -195,7 +195,7 @@
   width: 19px;
   height: 19px;
 }
-.text-button4 {
+.text-button10 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-xs) var(--padding-5xs);
@@ -223,7 +223,7 @@
   text-align: left;
   font-size: var(--semi-bold-subtitle-2-size);
   color: var(--rsi-blue);
-  font-family: var(--light-heading-5);
+  font-family: var(--light-heading-3);
 }
 .approvals-work-detail-flyout.animate {
   animation: 0.25s ease 0s 1 normal forwards slide-in-right;
