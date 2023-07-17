@@ -843,7 +843,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-xs);
-  z-index: 1;
 }
 .button63 {
   position: absolute;
@@ -855,6 +854,7 @@
   font-family: var(--light-heading-3);
   color: var(--color-royalblue);
   text-align: left;
+  width: 140px;
 }
 .button-wrapper9 {
   position: relative;
@@ -1057,7 +1057,6 @@
   position: relative;
   width: 21px;
   height: 18px;
-  z-index: 1;
 }
 .audit-history1 {
   position: relative;
@@ -1116,7 +1115,6 @@
   position: relative;
   width: 20px;
   height: 18px;
-  z-index: 1;
 }
 .card-wheader4 {
   position: absolute;

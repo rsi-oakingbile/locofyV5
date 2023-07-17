@@ -1209,7 +1209,6 @@
   position: absolute;
   top: 29.17%;
   left: 38.55%;
-  line-height: 38px;
   text-transform: uppercase;
 }
 .filter-list-icon18 {
@@ -1404,7 +1403,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-xs);
-  z-index: 1;
 }
 .button-wrapper14 {
   position: relative;
@@ -1524,7 +1522,6 @@
   position: relative;
   width: 20px;
   height: 18px;
-  z-index: 1;
 }
 .card-header16 {
   position: absolute;
