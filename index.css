@@ -1114,7 +1114,6 @@
   align-items: center;
   justify-content: flex-start;
   gap: var(--gap-xs);
-  z-index: 1;
 }
 .button2 {
   position: relative;
@@ -1269,7 +1268,6 @@
 .kpis-inner,
 .kpis-item {
   position: absolute;
-  top: 210px;
   left: 0;
   border-radius: var(--br-6xs);
   background-color: var(--white);
@@ -1426,7 +1424,7 @@
   height: 148px;
 }
 .frame-child1 {
-  top: 148px;
+
   border-radius: var(--br-6xs);
   border: 1px solid var(--color-royalblue);
   box-sizing: border-box;
