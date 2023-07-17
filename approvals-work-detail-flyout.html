@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./approvals-work-detail-flyout.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Font Awesome 6 Pro:wght@300;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="approvals-work-detail-flyout" data-animate-on-scroll>
+      <button class="secondary-button5">
+        <img class="cancel-icon" alt="" src="./public/cancel.svg" />
+
+        <div class="button-wrapper3">
+          <div class="button23">Reject</div>
+        </div>
+        <img
+          class="chevron-right-icon26"
+          alt=""
+          src="./public/chevronright.svg"
+        />
+      </button>
+      <button class="secondary-button6">
+        <img class="cancel-icon" alt="" src="./public/checklist.svg" />
+
+        <div class="button-wrapper4">
+          <div class="button24">Approve</div>
+        </div>
+        <img
+          class="chevron-right-icon26"
+          alt=""
+          src="./public/chevronright.svg"
+        />
+      </button>
+      <img class="radial-shadow-icon" alt="" src="./public/radial-shadow.svg" />
+
+      <div class="contents">
+        <div class="work-detail-content3">
+          <div class="id-header">
+            <div class="work-id">Work ID</div>
+            <div class="witm147399799">WITM147399799</div>
+          </div>
+          <div class="description-parent">
+            <div class="description">Description</div>
+            <div class="a-description-that">
+              A description that someone might fill in that might go to two
+              lines
+            </div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Entity Name</div>
+            <div class="a-description-that">Correspondence Workflow</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Created By</div>
+            <div class="a-description-that">Correspondence Workflow</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Create date</div>
+            <div class="a-description-that">4:35pm 03/06/2023</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">End Date</div>
+            <div class="a-description-that">4:35pm 09/06/2023</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Queue Name</div>
+            <div class="a-description-that">CaseQueue</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Assigned By</div>
+            <div class="a-description-that">agreer@oomphinc.com</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Assigned To</div>
+            <div class="a-description-that">jhogue@oomphinc.com</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Assigned Date</div>
+            <div class="a-description-that">12:31pm 03/08/2023</div>
+          </div>
+          <div class="status-parent4">
+            <div class="description">Status</div>
+            <div class="not-set">(Not set)</div>
+          </div>
+          <div class="entity-name-parent">
+            <div class="description">Step</div>
+            <div class="a-description-that">Open</div>
+          </div>
+        </div>
+      </div>
+      <button class="text-button12" id="drawertextButton">
+        <img
+          class="chevron-right-icon26"
+          alt=""
+          src="./public/chevronleft.svg"
+        />
+
+        <div class="button25">Close (esc)</div>
+        <img class="cancel-icon1" alt="" src="./public/cancel1.svg" />
+      </button>
+    </div>
+
+    <script>
+      var drawertextButton = document.getElementById("drawertextButton");
+      if (drawertextButton) {
+        drawertextButton.addEventListener("click", function (e) {
+          var popup = e.currentTarget.parentNode;
+          function isOverlay(node) {
+            return !!(
+              node &&
+              node.classList &&
+              node.classList.contains("popup-overlay")
+            );
+          }
+          while (popup && !isOverlay(popup)) {
+            popup = popup.parentNode;
+          }
+          if (isOverlay(popup)) {
+            popup.style.display = "none";
+          }
+        });
+      }
+      
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>

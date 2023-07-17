@@ -1,0 +1,124 @@
+.group-child76 {
+  position: absolute;
+  top: calc(50% - 199px);
+  left: calc(50% - 292px);
+  border-radius: var(--br-7xs);
+  background-color: var(--white);
+  width: 584px;
+  height: 398px;
+}
+.browsing-is-strictly {
+  margin: 0;
+}
+.browsing-is-strictly-container {
+  position: absolute;
+  top: 85px;
+  left: 108px;
+  font-family: var(--font-source-sans-pro);
+  display: inline-block;
+  width: 385px;
+}
+.check-box-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.i-agree-to {
+  position: relative;
+  line-height: 38px;
+}
+.check-box-parent {
+  position: absolute;
+  top: 265px;
+  left: calc(50% - 198px);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  align-items: center;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.close,
+.vector-icon18 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon18 {
+  height: 58.33%;
+  width: 58.33%;
+  top: 20.83%;
+  right: 20.83%;
+  bottom: 20.83%;
+  left: 20.83%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.close {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 20px;
+  left: 540px;
+  width: 24px;
+  height: 24px;
+}
+.terms-of-system {
+  position: absolute;
+  top: 35px;
+  left: 108px;
+  line-height: 38px;
+}
+.chevron-left-icon32 {
+  position: relative;
+  width: 19px;
+  height: 19px;
+  display: none;
+}
+.button58 {
+  position: relative;
+  font-size: var(--regular-paragraph-regular-size);
+  letter-spacing: 0.04em;
+  font-weight: 600;
+  font-family: var(--light-paragraph-small);
+  color: var(--white);
+  text-align: left;
+}
+.primary-button7 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs) var(--padding-xs);
+  background-color: var(--color-royalblue);
+  position: absolute;
+  top: 334px;
+  left: 257px;
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.rectangle-parent49 {
+  position: absolute;
+  top: calc(50% - 199px);
+  left: calc(50% - 292px);
+  width: 584px;
+  height: 398px;
+  min-width: 584px;
+}
+.terms-of-system-use {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 1440px;
+  height: 1024px;
+  overflow: hidden;
+  max-width: 90%;
+  max-height: 90%;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--light-paragraph-small);
+}
