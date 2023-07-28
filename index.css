@@ -3467,4 +3467,4 @@
   }
 }
 
-button { text-transform: uppercase; }
+button:not(.revenue-module),button:not(.property-module)  { text-transform: uppercase; }
