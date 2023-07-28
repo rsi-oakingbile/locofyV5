@@ -3466,3 +3466,5 @@
     position: fixed;
   }
 }
+
+button { text-transform: uppercase; }

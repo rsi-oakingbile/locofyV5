@@ -32,7 +32,7 @@
         <span class="span"> </span>
         <span class="terms-of-system1">Terms of System Use</span>
       </button>
-      <button class="primary-button11">
+      <button class="primary-button11" id = primaryButton11>
         <img
           class="chevron-left-icon34"
           alt=""
@@ -182,6 +182,12 @@
               }
             };
           popup.addEventListener("click", onClick);
+        });
+      }
+      var primaryButton11 = document.getElementById("primaryButton11");
+      if (primaryButton11) {
+        primaryButton11.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
         });
       }
       </script>
